@@ -29,5 +29,5 @@ console.log(array1===array5); //false
 // now lets say you want to make a clone of array5 and then you also want some more elements in clonned one
 let array8 = (array5.slice(0).concat(["Tesla", "Adi", "philosophy"])); 
 console.table(array8); 
-let lastArray = [...array8, ...array1];   // is spread operator
+let lastArray = [...array8, ...array1];   // ... is spread operator
 console.table(lastArray);
