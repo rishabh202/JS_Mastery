@@ -1,4 +1,5 @@
 "use strict";
+// clone array and spread operator
 
 // But if, we do like this(below) then obv they are diff arrays 
 let array1 = ['', 'd', 'g']; 
