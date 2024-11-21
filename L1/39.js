@@ -19,3 +19,5 @@ function detailsBata({firstName, gender, interest}){
     console.log(interest); // undefined
 }
 detailsBata(insaan);
+
+// Important, practice this, used Vmuch in react
