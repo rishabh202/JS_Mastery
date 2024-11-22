@@ -17,11 +17,15 @@ const users = {
     name: 'rishi', age: 19
 }
 
-for (user of users){
-    console.log(user);   
-;}
+// for (user of users){
+//     console.log(user);   
+// ;}
 // see error aaraha h ki users is not iterable, i.e objects are not iterable
 
 
 // array like object
 // jinke pass length property hoti hai , aur jinko hum index se access kr skte hai for eg: string
+
+console.log(firstName.length);
+console.log(firstName[0]);
+// hence string is array like object
