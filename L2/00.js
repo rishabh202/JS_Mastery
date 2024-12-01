@@ -1,5 +1,6 @@
 // Entire syllabus of js mastery second lec
 
+
 // 02:39 How javascript works overview
 // 16:19 How javascript execute code
 // 18:00 Global execution context
