@@ -10,7 +10,7 @@ console.log(typeof this);
 var firstName = "Rishabh"
 console.log(firstName);
 
-// js is synchoronous programming language i.e jbtk phele like execute nai hoti, dusri nai hoga,
+// js is synchoronous programming language i.e jbtk pheli line execute nai hoti, dusri nai hoga,
 // and js have single thread
 console.log(" gap ");
 console.log(this);
