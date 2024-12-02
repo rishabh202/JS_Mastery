@@ -16,6 +16,8 @@ console.log(paagaa);
 // same u cannnot do with const, const ko initialize krna hi pdtay .
 // const apples; // see the error, const declarations must be initialized.
 
+// hoisting is simply that ki initialize krne se phele variales memory me store ho jaate hai.
+
 
 // 
 // const aName;    // error; as const h, we must define.
