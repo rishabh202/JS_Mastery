@@ -24,11 +24,21 @@ console.log(Aname);
 let aWord;
 console.log(aWord);  // undef
 
-// const bWrod;   // error bcz const declarations must be initialized
-// console.log(bWrod); // error
+
+// const bWrod;  // error bcz const declarations must be initialized
+// console.log(bWrod); // error | obc uncaught reference eror
+
+// bWrod = 69; // it is not defined, as use-strict. nai toh var se hota by default
+// console.log(bWrod);   // error
 
 // ---- 
+// let somerName = "parraot";
+
 console.log(typeof somerName);  // typeof k wjh se hua aisa 
+// qki idhr somerName undef hai, islie typeof also gives undef.
+// baadme here we have declared it.
 // let somerName = "parraot";
 // console.log(somerName);
+
+// uncomment krke dkh le
 
