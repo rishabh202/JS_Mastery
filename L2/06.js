@@ -32,13 +32,13 @@ console.log(aWord);  // undef
 // console.log(bWrod);   // error
 
 // ---- 
-// let somerName = "parraot";
 
+// let somerName = "parraot";
 console.log(typeof somerName);  // typeof k wjh se hua aisa 
 // qki idhr somerName undef hai, islie typeof also gives undef.
 // baadme here we have declared it.
 // let somerName = "parraot";
-// console.log(somerName);
+console.log(somerName);
 
 // uncomment krke dkh le
 
