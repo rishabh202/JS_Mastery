@@ -1,4 +1,5 @@
 "use strict";
+// let and const hoisting and reference error
 // some revision
 
 // see let and const ki bhi hositing hoti hai, i.e code execute hone se phele woh memory me present rhte hai
