@@ -3,6 +3,7 @@
 // closures 
 
 // we know that funtions can return fuctions
+// closures is simply ki jb koi function kisi function se return hota hai, toh woh apne saath, apne local memory ke variables hai unko saath leke return hota hai
 
 function myFunc(){
     return 1; 
