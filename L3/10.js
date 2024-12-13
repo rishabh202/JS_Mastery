@@ -11,6 +11,7 @@ console.log(headLine.innerHTML);
 
 headLine.innerHTML = "<h2> InnerHTML changed</h2>"
 headLine.innerHTML += "<button class=\"btn\"> clickme </button>"
+
 // "" and andar "" aise use krte hai \" \"
 // i.e \" ----> "
 headLine.innerHTML += "<button> extraBtn </button>"
