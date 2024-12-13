@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css" />
+ 
+    <!-- <script src="./01.js" defer></script> -->
+    <script src="./02.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <h1 class="logo">Website</h1>
+        <ul class="nav-items">
+          <li id="listss" class="lists"><a href="#home">Home</a></li>
+          <li id="listss" class="lists"><a href="">About</a></li>
+          <li id="listss" class="lists"><a href="">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="headlines">
+        <!-- see apne ko ye headlines header ki respect me center krni hai hence header will be position relative. aur jisko krna hai usko dedenga absolute -->
+        <h2 id="main-heading">Manage your tasks<span style="display: none;"> insideSpan</span></h2>
+        <button class="btn btn-headlines">Learn More</button>
+      </div>
+    </header>
+    <section class="todo-section container">
+      <h2 class="h2">Enter your today's tasks</h2>
+      <form class="todo-form" action="">
+        <input type="text" placeholder="Add todo" name="" id="" />
+        <input type="submit" placeholder="Add todo" class="btn" />
+      </form>
+      <ul class="todo-list">
+        <li>todo 1</li>
+      </ul>
+    </section>
+
+    <section class="signup-section container">
+      <h2>Sign up</h2>
+      <form action="" class="signup-class">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" />
+        </div>
+        <div class="form-group">
+          <label for="password">password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div class="form-group">
+          <label for="cnfPassword">Confirm Password</label>
+          <input type="password" name="cnfPassword" id="cnfPassword" />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="text" name="phone" id="phone" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="form-group">
+          <label for="about">About Yourself</label>
+          <textarea name="about" id="about" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit" class="btn signup-btn">Submit</button>
+      </form>
+    </section>
+    <!-- <script src="./00.js"></script> -->
+  </body>
+</html>
+
+
+<!-- how to link js file toh htmlcss see we already know but still here are some additional points you must know -->
+ <!--  first is ki we can link in html file ka head. using scriptsrc -->
+   <!-- bt start me hi js file daalne se browser phele hi js ko lega, toh woh js load krega phele and then execute krega, hence qki abhi puri html file parse nahi hui, but js execute hogyi, toh islie woh error de dega. Hence this method shoulde be avoided -->
+
+   <!-- second method is to add it to the end of the body tag. so this is better than the previos, as isme html pura parse hora hai and js read and execte hori. So this is better than previos one -->
+
+   <!-- third method: is ki phele jaise hi kro, but use async/-->
+    <!-- parse means to read. SO abhi browser upr ki saari fils parse krega, and qki async toh uska mtbl loading nhi rukegi html ki and js bhi read hota rhega. both simultaneously. lekin fir maan le js puri load hogyi but html nai, toh async jhn tk js load hui whi pe ruk jaaegi and uss loaded js file ko execute krne lgegi.  so still errors may come qki html puri load nai hui -->
+
+    <!-- fourth method is to use defer -->
+     <!--  baaaki sb sb, again html ki parsing and js reading saath me chlenge
+       see webiste load hogi, but woh pura html bhi read kregi. uske baad execute kregi. So this is time efficient and less prone to error.
+       time is saved as html and js dono saath me parse hore hai, aur error bhi nai aeega, as ki puri file load hone pr hi full execution hoga -->
+
+
