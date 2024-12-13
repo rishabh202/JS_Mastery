@@ -82,6 +82,7 @@ console.log(title);
 console.log(title.childNodes);
 
 
+
 // suppose we dont want text
 const container = document.querySelector(".container") 
 console.log(container);  // suppose we dont want the empty texts, so we can like
