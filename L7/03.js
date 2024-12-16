@@ -38,3 +38,6 @@ allBtns1.forEach(function(button){
         console.log(this);
        })
 })
+
+
+// not properly done
